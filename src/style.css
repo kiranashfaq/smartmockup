@@ -103,6 +103,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   border-radius: 3px;
 }
+/* card-section */
 .card-main-div {
   display: flex;
   align-items: center;
@@ -122,6 +123,7 @@ body {
   color: rgb(0, 0, 0);
   opacity: 0.65;
 }
+/* column-section */
 .column-h1 {
   font-weight: bolder;
   font-size: 36px;
@@ -131,6 +133,7 @@ body {
   width: 100%;
   margin-bottom: 15%;
 }
+/* mockup-section */
 .mockup-img-div {
   display: flex;
   justify-content: center;
@@ -156,6 +159,33 @@ body {
 .steps-heading {
   font-size: 22px;
   font-weight: 600;
+}
+/* designer-div */
+.design-div {
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 6px black;
+  border-radius: 5px;
+  width: 25%;
+  padding: 16px;
+  margin-top: -27%;
+  margin-left: 5%;
+  position: absolute;
+  /* top: 100%; */
+}
+.d-p {
+  font-size: 22px;
+}
+.designer-name {
+  display: flex;
+  align-items: center;
+}
+.d-dp {
+  width: 50%;
+}
+.designer-name {
+  font-weight: bold;
+  font-size: 16px;
 }
 @media screen and (max-width: 768px) {
   .nav-main {
@@ -249,5 +279,20 @@ body {
   }
   .steps-div {
     justify-content: center;
+  }
+  .design-img {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .d-img {
+    width: 100%;
+  }
+  .design-div {
+    width: 70%;
+    height: 40vh;
+    margin: 0px;
+  }
+  .d-p {
+    font-size: 15px;
   }
 }
