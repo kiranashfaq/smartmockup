@@ -237,11 +237,45 @@ body {
   padding-left: 3%;
   font-size: 20px;
 }
-.blog-heading:hover{
-    text-decoration: underline;
-    cursor: pointer;
+.blog-heading:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* footer-section */
+.footer {
+  background-color: rgb(241, 241, 255);
+}
+.flogo-name {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: rgb(4, 199, 234);
+  padding-top: 3%;
+}
+.footer-inp {
+  background-image: url(img/globe.png);
+  background-position-x: 85%;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: 19px;
+  border: 2px solid rgb(205, 196, 196);
+  border-radius: 18px;
+  padding: 5px 15px;
+}
+.footer-inp:focus {
+  outline: none;
 }
 
+.table-name {
+  font-size: 14px;
+}
+.table-name:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.bi:hover {
+  cursor: pointer;
+}
 @media screen and (max-width: 768px) {
   .nav-main {
     justify-content: space-between;
@@ -375,5 +409,9 @@ body {
   }
   .card-1 {
     margin-right: 3%;
+  }
+  .tr {
+    margin-bottom: -10px;
+    margin-top: 10%;
   }
 }
