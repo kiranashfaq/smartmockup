@@ -118,6 +118,19 @@ body {
 .card-h3 {
   font-size: 20px;
 }
+.w-1 {
+  color: rgb(0, 0, 0);
+  opacity: 0.65;
+}
+.column-h1 {
+  font-weight: bolder;
+  font-size: 36px;
+  padding-top: 0;
+}
+.column-img {
+  width: 100%;
+  margin-bottom: 9%;
+}
 @media screen and (max-width: 768px) {
   .nav-main {
     justify-content: space-between;
@@ -187,10 +200,17 @@ body {
     align-items: center;
     justify-content: center;
   }
-  .card-1{
+  .card-main-div::-webkit-scrollbar {
+    display: none;
+  }
+  .card-1 {
     margin-right: 3%;
   }
   .card-1-1 {
     margin-left: 314%;
+  }
+  .columns-div {
+    display: block;
+    flex-direction: column-reverse;
   }
 }
